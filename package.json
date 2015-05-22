@@ -1,0 +1,25 @@
+{
+  "name": "sequelize-getting-started-example-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "sequelize": "^3.0.1",
+    "sequelize-cli": "^1.7.0",
+    "sqlite3": "^3.0.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/irvingswiftj/sequelize-getting-started-example-1.git"
+  },
+  "author": "James Irving-Swift",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/irvingswiftj/sequelize-getting-started-example-1/issues"
+  },
+  "homepage": "https://github.com/irvingswiftj/sequelize-getting-started-example-1#readme"
+}

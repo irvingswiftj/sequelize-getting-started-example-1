@@ -24,14 +24,14 @@ module.exports = function (sequelize, DataTypes) {
     }, {
         tableName: 'Students',
         hooks: {
-            beforeCreate: function (game, options, fn) {
-                game.createdAt = new Date();
-                game.updatedAt = new Date();
-                fn(null, game);
+            beforeCreate: function (row, options, fn) {
+                row.createdAt = new Date();
+                row.updatedAt = new Date();
+                fn(null, row);
             },
-            beforeUpdate: function (game, options, fn) {
-                game.updatedAt = new Date();
-                fn(null, game);
+            beforeUpdate: function (row, options, fn) {
+                row.updatedAt = new Date();
+                fn(null, row);
             }
         }
     });
